@@ -1,0 +1,17 @@
+{
+  "name": "agilizei-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile":  "npx cypress run --config viewportWidth=411,viewportHeight=823",
+    "cypress:run": "npx cypress run",
+    "cypress:run:dash": "npx cypress run --record --key 5bfc476b-7e2b-460a-b5b0-3e5ca5f1ac2b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.7.1"
+  }
+}
